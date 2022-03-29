@@ -22,8 +22,7 @@ mongoose.connect(
 
 server.get("/", (req, res) => {
   return res.json({
-    message:
-      "Seja bem vindo à API do TODO_LIST - Desenvolvida por Wesley Bruno",
+    message: "Seja bem vindo à API do TODO_LIST - Wesley Bruno 😉",
   });
 });
 
