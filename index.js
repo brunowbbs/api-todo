@@ -13,7 +13,7 @@ server.use(cors());
 server.use(express.json());
 
 mongoose.connect(
-  "mongodb+srv://admin:admin@cluster0.pdzrk.mongodb.net/myFirstDatabase?retryWrites=true&w=majority",
+  "mongodb+srv://admin:admin@cluster0.lbeluot.mongodb.net/?retryWrites=true&w=majority",
   {
     useUnifiedTopology: true,
     useNewUrlParser: true,
