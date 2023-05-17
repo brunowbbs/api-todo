@@ -6,6 +6,7 @@ const ToDoSchema = new Schema({
     required: true,
   },
   description: String,
+  category: String,
   status: {
     type: Boolean,
     default: true,
